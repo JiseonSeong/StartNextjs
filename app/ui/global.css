@@ -1,6 +1,25 @@
+/**
+
+    Folder Link: /app/ui
+    When use: to add CSS rules to all the routes in this application
+    Example)
+       - CSS reset rules,
+       - Site-wide stypes for HTML elements (links, ..)
+
+    @ Can import 'global.css' in any component in the application
+    @ This is 'root layout' : top-level component
+
+**/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tailwind 
+      - CSS Framework by allowing you to quickly write utility classes derectly in your TSX markup.
+      
+      
+*/
 
 input[type='number'] {
   -moz-appearance: textfield;
