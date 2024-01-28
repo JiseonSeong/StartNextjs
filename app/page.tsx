@@ -68,7 +68,7 @@ export default function Page() {
             height={620}
             //'hidden/block' : to remove/show the image from the DOM on mobile screens
             //'md:hidden/block': to remove/show the image on desktop screens
-            className="md:hidden" //"md:hidden": also not show the image on desktop screens
+            className="block md:hidden" //"md:hidden": also show the image on mobile screens
             alt="Screenshots of the dashboard project showing desktop version"
           />
         </div>
